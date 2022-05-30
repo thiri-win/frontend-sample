@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    padding: 5rem;
+    padding: 6rem 5rem;
 }
 
 .title {
@@ -82,16 +82,14 @@ p {
 .fixed-top a {
     color: #000 !important;
 }
-
 .navbar a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
     display: block;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
-
 .navbar a:hover {
     color: #bbb;
 }
@@ -143,8 +141,8 @@ header {
 .about {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 7rem;
 }
-
 .about-img,
 .about-content {
     width: 50%;
@@ -328,7 +326,7 @@ header {
 }
 
 .blog-content .card {
-    width: 30%;
+    /* width: 30%; */
     background-color: #fff;
 }
 
@@ -448,7 +446,7 @@ footer {
 footer .info {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     flex-wrap: wrap;
 }
