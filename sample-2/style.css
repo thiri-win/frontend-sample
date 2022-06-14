@@ -518,6 +518,7 @@ footer {
     width: 45px;
     height: 45px;
     text-align: center;
+    display: none;
 }
 
 #up i {
