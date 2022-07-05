@@ -150,9 +150,9 @@ body {
     position: absolute;
     bottom: -.5rem;
     left: 0;
-    height: 50rem;
+    height: 30rem;
     width: 100%;
-    background: url("img/wave2.png");
+    background: url("img/wave.png");
     background-size: 100rem 100%;
     background-repeat: repeat-x;
     animation: waves 10s linear infinite;
